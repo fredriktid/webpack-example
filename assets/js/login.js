@@ -9,6 +9,8 @@ $(document).ready(function() {
         $('.js-recommended-login-details').toggle();
     });
 
+    $('.js-show-login').tooltip();
+
     $('.js-login-field-email').on('keydown', function(e) {
         const $emailInput = $(e.currentTarget);
         // remove any existing warnings
