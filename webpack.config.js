@@ -52,6 +52,7 @@ Encore
     .copyFiles([
         { 'from': './assets/static' }
     ])
+    .enablePostCssLoader()
 ;
 
 module.exports = Encore.getWebpackConfig();
